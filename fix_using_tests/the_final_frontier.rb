@@ -5,12 +5,14 @@
 #end
 
 
-def state_log(star_date)
-  state_log = (rand(100000) + 400000) / 10.0
-  "Captain's Log, star date #{state_log}."
-end
+#def state_log(star_date)
+#  engage = (rand(100000) + 400000) / 10.0
+#  "Captain's Log, star date #{state_log}."
+#end
 
-def engage
-  puts state_log(date)
-  date = generate_star_date
+def engage (star_date)
+  star_date = (rand(100000) + 400000) / 10.0
+  "Captain's Log, star date #{star_date}."
+  puts engage 
+
 end
