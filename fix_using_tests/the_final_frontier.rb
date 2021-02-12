@@ -15,3 +15,4 @@ def engage (star_date)
   "Captain's Log, star date #{star_date}."
   puts engage
 end
+engage('5')
