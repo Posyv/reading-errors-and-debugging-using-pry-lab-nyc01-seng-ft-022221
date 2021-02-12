@@ -10,7 +10,6 @@ def prompt_user
 end
 
 def selection(num)
-  binding.pry
   if num = 2
     "HAM HAM HAM IN MY TUMMY"
   elsif num = 1
