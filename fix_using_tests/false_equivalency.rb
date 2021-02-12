@@ -11,10 +11,10 @@ end
 
 def selection(num)
   binding.pry
-  if num = 2
+  if num = 1
+    "HAM HAM HAM IN MY TUMMY"
+  elsif num = 2
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 1
-     "HAM HAM HAM IN MY TUMMY"
   end
 
 end
