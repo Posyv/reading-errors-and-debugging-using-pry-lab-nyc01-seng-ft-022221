@@ -9,9 +9,9 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-def selection(num)
+def selection(num, num1)
   binding.pry
-  if num = 2
+  if num1 = 2
     "HAM HAM HAM IN MY TUMMY"
   elsif num = 1
    "YUM YUM MUNCH MUNCH MUNCH"
