@@ -13,5 +13,5 @@
 def engage (star_date)
   star_date = (rand(100000) + 400000) / 10.0
   "Captain's Log, star date #{star_date}."
+  puts engage
 end
-engage "#{star_date}"
